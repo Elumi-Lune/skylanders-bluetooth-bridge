@@ -1,5 +1,3 @@
-# skylanders-bluetooth-bridge
-=======
 # Skylanders Bluetooth Bridge 🎮
 
 > **Portail Traptanium Bluetooth de l'édition tablette → Windows → Cemu VirtPort**, avec les vraies figurines, les pièges et la petite manette d'origine.

@@ -1,0 +1,63 @@
+{
+  "source": "Références minimales vérifiées avec la collection de développement; catalogue complet non inclus",
+  "saved_at": null,
+  "complete": false,
+  "entries": [
+    {
+      "name": "Jawbreaker",
+      "character_id": 470,
+      "variant_id": 12288,
+      "section": "Jeu de validation BLE",
+      "type": "Figurine"
+    },
+    {
+      "name": "Snap Shot",
+      "character_id": 462,
+      "variant_id": 12288,
+      "section": "Jeu de validation BLE",
+      "type": "Figurine"
+    },
+    {
+      "name": "Shroomboom",
+      "character_id": 113,
+      "variant_id": 4096,
+      "section": "Jeu de validation BLE",
+      "type": "Figurine"
+    },
+    {
+      "name": "Dragonfire Cannon",
+      "character_id": 208,
+      "variant_id": 4614,
+      "section": "Jeu de validation BLE",
+      "type": "Objet magique"
+    },
+    {
+      "name": "Tidal Tiki (Water Tiki)",
+      "character_id": 211,
+      "variant_id": 12289,
+      "section": "Jeu de validation BLE",
+      "type": "Piège Traptanium"
+    },
+    {
+      "name": "Sorcerous Skull (Magic Skull)",
+      "character_id": 210,
+      "variant_id": 12296,
+      "section": "Jeu de validation BLE",
+      "type": "Piège Traptanium"
+    },
+    {
+      "name": "Spectral Skull (Undead Skull)",
+      "character_id": 213,
+      "variant_id": 12296,
+      "section": "Jeu de validation BLE",
+      "type": "Piège Traptanium"
+    },
+    {
+      "name": "Weed Whacker (Life Hammer)",
+      "character_id": 217,
+      "variant_id": 12298,
+      "section": "Jeu de validation BLE",
+      "type": "Piège Traptanium"
+    }
+  ]
+}

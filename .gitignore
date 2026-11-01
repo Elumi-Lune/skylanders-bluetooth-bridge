@@ -1,0 +1,60 @@
+# Python et environnements
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+.env
+.env.*
+
+# Données NFC personnelles : NE JAMAIS PUBLIER
+*.sky
+*.dump
+*.bin
+*.nfc
+*.mfd
+trap_*.json
+bridge_*.jsonl
+battery_probe_*.json
+capture_*.log
+scan_report.json
+gatt_report.json
+skylanders_notifications.jsonl
+skylanders_backups/
+skylanders_logs/
+virtport_cache/
+virtport_game_saves/
+cemu_exports/
+backups/
+safesync/
+# Répertoire runtime sous src (application lancée directement)
+**/skylanders_backups/
+**/skylanders_logs/
+**/virtport_cache/
+**/virtport_game_saves/
+**/cemu_exports/
+**/safesync/
+src/catalogue_local.json
+src/catalogue_local.tmp
+
+# Archives locales / jeux / pilotes tiers
+*.apk
+*.ipa
+*.iso
+*.wud
+*.wux
+*.rpx
+*.so
+*.dll
+*.exe
+*.msi
+*.zip
+
+# IDE/OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,2 @@
+bleak>=0.20,<3
+cryptography>=42,<50

@@ -1,0 +1,22 @@
+name: Tests sans matériel
+on:
+  push:
+  pull_request:
+jobs:
+  python:
+    runs-on: windows-latest
+    strategy:
+      matrix:
+        python-version: ['3.10', '3.12']
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+          cache: pip
+      - name: Installer les dépendances
+        run: python -m pip install -r requirements.txt
+      - name: Vérifier la syntaxe
+        run: python -m compileall -q src tests
+      - name: Tests hors matériel
+        run: python -m unittest discover -s tests -v
